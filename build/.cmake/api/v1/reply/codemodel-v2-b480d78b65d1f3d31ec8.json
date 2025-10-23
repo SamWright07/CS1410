@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
@@ -15,11 +19,12 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -27,7 +32,7 @@
 					[
 						0
 					],
-					"name" : "Project",
+					"name" : "cpp_starter_project",
 					"targetIndexes" : 
 					[
 						0,
@@ -35,7 +40,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -44,42 +50,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ex0201::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ex0201-Debug-8149b4cdb4fcd303d346.json",
+					"jsonFile" : "target-ex0201-4b1d2177f086fa5ea6b9.json",
 					"name" : "ex0201",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ex0202::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ex0202-Debug-a04d3673a88011bb5563.json",
+					"jsonFile" : "target-ex0202-6f6d638645fbb0fb928f.json",
 					"name" : "ex0202",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ex0203::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ex0203-Debug-153fe3bd25210aaf4417.json",
+					"jsonFile" : "target-ex0203-e170bea1bfe2f5ef0824.json",
 					"name" : "ex0203",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ex0401::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ex0401-Debug-7da088623e30650d1255.json",
+					"jsonFile" : "target-ex0401-afea28e42295a433dfdd.json",
 					"name" : "ex0401",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ex0402::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ex0402-Debug-2db8000f73509a63e8df.json",
+					"jsonFile" : "target-ex0402-cf21368c7ab265c9aa2b.json",
 					"name" : "ex0402",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "ex0701::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex0701-8bae9275331ee98899f6.json",
+					"name" : "ex0701",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-fa3601597f6b17af64ed.json",
+					"jsonFile" : "target-main-80571cd57ff5cb059b79.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}

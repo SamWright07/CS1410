@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ex0202"
+			"path" : "ex0201"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -32,12 +32,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
@@ -45,24 +39,20 @@
 			]
 		}
 	],
-	"id" : "ex0202::@6890427a1f51a3e7e1df",
+	"id" : "ex0201::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-rdynamic",
+				"fragment" : "",
 				"role" : "flags"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "ex0202",
-	"nameOnDisk" : "ex0202",
+	"name" : "ex0201",
+	"nameOnDisk" : "ex0201",
 	"paths" : 
 	{
 		"build" : ".",
@@ -83,7 +73,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ex0202.cpp",
+			"path" : "src/ex0201.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
