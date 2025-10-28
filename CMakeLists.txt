@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.18)
 project(cpp_starter_project)
 
+include_directories(include)
+
 add_executable(main src/main.cpp)
 add_executable(ex0201 src/ex0201.cpp)
 add_executable(ex0202 src/ex0202.cpp)
@@ -8,3 +10,5 @@ add_executable(ex0203 src/ex0203.cpp)
 add_executable(ex0401 src/ex0401.cpp)
 add_executable(ex0402 src/ex0402.cpp)
 add_executable(ex0701 src/ex0701.cpp)
+add_executable(ex0801 src/ex0801.cpp)
+add_executable(ex0802 src/ex0802.cpp)

@@ -1,3 +1,5 @@
+/workspaces/CS1410/build/CMakeFiles/ex0802.dir
+/workspaces/CS1410/build/CMakeFiles/ex0801.dir
 /workspaces/CS1410/build/CMakeFiles/ex0401.dir
 /workspaces/CS1410/build/CMakeFiles/edit_cache.dir
 /workspaces/CS1410/build/CMakeFiles/ex0203.dir

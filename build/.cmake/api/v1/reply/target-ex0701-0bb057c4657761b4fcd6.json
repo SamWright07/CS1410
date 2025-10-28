@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -24,7 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4,
 				"parent" : 0
 			}
 		]
@@ -32,6 +39,13 @@
 	"compileGroups" : 
 	[
 		{
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/workspaces/CS1410/include"
+				}
+			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
