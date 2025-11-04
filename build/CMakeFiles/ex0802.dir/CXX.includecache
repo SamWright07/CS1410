@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+../include/author.h
+iostream
+-
+string
+-
+
+/workspaces/CS1410/src/ex0802.cpp
+iostream
+-
+string
+-
+author.h
+/workspaces/CS1410/src/author.h
+

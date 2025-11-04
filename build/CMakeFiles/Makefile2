@@ -72,6 +72,7 @@ CMAKE_BINARY_DIR = /workspaces/CS1410/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/ex0901.dir/all
 all: CMakeFiles/ex0802.dir/all
 all: CMakeFiles/ex0801.dir/all
 all: CMakeFiles/ex0401.dir/all
@@ -90,6 +91,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/ex0901.dir/clean
 clean: CMakeFiles/ex0802.dir/clean
 clean: CMakeFiles/ex0801.dir/clean
 clean: CMakeFiles/ex0401.dir/clean
@@ -101,6 +103,33 @@ clean: CMakeFiles/ex0402.dir/clean
 clean: CMakeFiles/main.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ex0901.dir
+
+# All Build rule for target.
+CMakeFiles/ex0901.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0901.dir/build.make CMakeFiles/ex0901.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0901.dir/build.make CMakeFiles/ex0901.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/CS1410/build/CMakeFiles --progress-num=17,18 "Built target ex0901"
+.PHONY : CMakeFiles/ex0901.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex0901.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS1410/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex0901.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS1410/build/CMakeFiles 0
+.PHONY : CMakeFiles/ex0901.dir/rule
+
+# Convenience name for target.
+ex0901: CMakeFiles/ex0901.dir/rule
+
+.PHONY : ex0901
+
+# clean rule for target.
+CMakeFiles/ex0901.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0901.dir/build.make CMakeFiles/ex0901.dir/clean
+.PHONY : CMakeFiles/ex0901.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ex0802.dir
@@ -325,7 +354,7 @@ CMakeFiles/ex0402.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/CS1410/build/CMakeFiles --progress-num=17,18 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/CS1410/build/CMakeFiles --progress-num=19,20 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.

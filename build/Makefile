@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ex0901
+
+# Build rule for target.
+ex0901: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex0901
+.PHONY : ex0901
+
+# fast build rule for target.
+ex0901/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0901.dir/build.make CMakeFiles/ex0901.dir/build
+.PHONY : ex0901/fast
+
+#=============================================================================
 # Target rules for targets named ex0802
 
 # Build rule for target.
@@ -462,6 +475,33 @@ src/ex0802.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0802.dir/build.make CMakeFiles/ex0802.dir/src/ex0802.cpp.s
 .PHONY : src/ex0802.cpp.s
 
+src/ex0901.o: src/ex0901.cpp.o
+
+.PHONY : src/ex0901.o
+
+# target to build an object file
+src/ex0901.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0901.dir/build.make CMakeFiles/ex0901.dir/src/ex0901.cpp.o
+.PHONY : src/ex0901.cpp.o
+
+src/ex0901.i: src/ex0901.cpp.i
+
+.PHONY : src/ex0901.i
+
+# target to preprocess a source file
+src/ex0901.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0901.dir/build.make CMakeFiles/ex0901.dir/src/ex0901.cpp.i
+.PHONY : src/ex0901.cpp.i
+
+src/ex0901.s: src/ex0901.cpp.s
+
+.PHONY : src/ex0901.s
+
+# target to generate assembly for a file
+src/ex0901.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex0901.dir/build.make CMakeFiles/ex0901.dir/src/ex0901.cpp.s
+.PHONY : src/ex0901.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -505,6 +545,7 @@ help:
 	@echo "... ex0701"
 	@echo "... ex0801"
 	@echo "... ex0802"
+	@echo "... ex0901"
 	@echo "... main"
 	@echo "... src/ex0201.o"
 	@echo "... src/ex0201.i"
@@ -530,6 +571,9 @@ help:
 	@echo "... src/ex0802.o"
 	@echo "... src/ex0802.i"
 	@echo "... src/ex0802.s"
+	@echo "... src/ex0901.o"
+	@echo "... src/ex0901.i"
+	@echo "... src/ex0901.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -6,9 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/workspaces/CS1410/src/ex0201.cpp
-iostream
--
-iomanip
--
-
